@@ -22,7 +22,7 @@ public class FirstServerApplication {
 	public String sayHello() {
 
 		String data = firstService.getFromSecondServer();
-		return "Hello from first server" + data;
+		return "Hello from first server " + data;
 	}
 
 }

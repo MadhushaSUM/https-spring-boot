@@ -16,7 +16,7 @@ public class FirstService {
     public String getFromSecondServer() {
         Mono<String> data = webClient
                 .get()
-                .uri("http://localhost:8444/hi")
+                .uri("https://localhost:8444/hi")
                 .retrieve()
                 .bodyToMono(String.class);
 

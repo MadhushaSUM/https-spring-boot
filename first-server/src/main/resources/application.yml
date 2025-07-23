@@ -11,9 +11,9 @@ server:
     key-store-type: PKCS12
     key-alias: first-server
 
-#gateway:
-#  ssl:
-#    key-store: classpath:/certs/first-server.p12
-#    key-store-password: changeit
-#    trust-store: classpath:/certs/truststore.p12
-#    trust-store-password: changeit
+gateway:
+  ssl:
+    key-store: classpath:/certs/first-server.p12
+    key-store-password: changeit
+    trust-store: classpath:/certs/truststore.p12
+    trust-store-password: changeit
